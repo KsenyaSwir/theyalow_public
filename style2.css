@@ -1,0 +1,813 @@
+@font-face {
+    font-family: 'LucidaSans-Italic';
+    src: url("fonts/911Fonts.com_LucidaSansItalic__-_911fonts.com_fonts_lGyV.ttf");
+}
+
+@font-face {
+    font-family: 'SegoeUI-Light';
+    src: url("fonts/segoeUI.ttf");
+}
+
+@font-face {
+    font-family: 'SegoeWP-Light';
+    src: url("fonts/segoe-wp-light.ttf");
+}
+
+@font-face {
+    font-family: 'Segoe-UI-Bold';
+    src: url("fonts/segoeBold.ttf");
+}
+
+@font-face {
+    font-family: 'SegoeWP';
+    src: url("fonts/segoe-wp-cufonfonts/SegoeWP.ttf");
+}
+
+body {
+    max-width: 1450px;
+}
+
+.header {
+    height: 566px;
+    background-image: url(img/Layer.png);
+}
+
+.wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.lognav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header .logo {
+    width: 319px;
+    height: 87px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 29px;
+    padding-left: 1px;
+}
+
+.header .logo .layer-1 {
+    position: relative;
+    padding-right: 5px;
+}
+
+.header .logo .lay-1 {
+    z-index: 1;
+    opacity: 50%;
+    width: 79px;
+    height: 79px;
+    position: absolute;
+}
+
+.header .logo .lay-2 {
+    z-index: 10;
+    width: 83px;
+    height: 83px;
+    border-radius: 13px;
+}
+
+.header .logo .the-yalow {
+    color: #FFFFFF;
+    font-family: 'LucidaSans-Italic', sans-serif;
+    font-style: italic;
+    letter-spacing: 0px;
+    font-size: 41px;
+    text-align: center;
+    padding-top: 22px;
+    padding-left: 1px;
+}
+
+.nav-bar {
+    background-image: url(img/nav.png);
+    width: 453px;
+    height: 41px;
+    box-shadow: -4px -5px 0 rgba(245, 197, 6, .27), -8px -8px 0 rgba(245, 197, 6, .27);
+}
+
+.nav-bar img {
+    margin-right: -15px;
+}
+
+.menu {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'SegoeWP', sans-serif;
+    color: #9B7D08;
+    font-size: 17px;
+    /*display: inline-block;*/
+    padding: 10px 20px;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.menu li:hover {
+    background: darkkhaki;
+}
+
+.the-cool {
+    padding-top: 21px;
+    padding-right: 27px;
+    align-self: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 63px;
+    text-align: center;
+    float: right;
+    line-height: 16px;
+}
+
+.the-cool p:first-child {
+    color: #F5C506;
+}
+
+.the-cool p {
+    color: #fff;
+}
+
+.in-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slader {
+    position: absolute;
+    left: 8px;
+    top: 300px;
+    background-image: url(img/Rectangle3copy.png);
+    width: 32px;
+    height: 57px;
+}
+
+.slader-2 {
+    position: absolute;
+    right: 40px;
+    top: 300px;
+    background-image: url(img/Rectangle3copy.png);
+    width: 32px;
+    height: 57px;
+    left: 1426px;
+}
+
+.slader img {
+    padding: 21px 8px;
+}
+
+.slader img:hover {
+    background: #A9A9A7;
+}
+
+.slader-2 img {
+    padding: 21px 8px;
+}
+
+.slader-2 img:hover {
+    background: #A9A9A7;
+}
+
+.section {
+    padding-top: 54px;
+    width: 561px;
+    height: 329px;
+    float: left;
+}
+
+.section video[poster] {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main {
+    width: 100%;
+    height: 212px;
+    background-image: url(img/Layer7.png);
+    margin-bottom: 1004px;
+}
+
+.main .rov {
+    display: flex;
+    padding-top: 60px;
+    flex-direction: row;
+    flex-direction: row;
+    justify-content: space-around;
+    height: inherit;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    align-items: start;
+}
+
+.main .one img {
+    width: 109px;
+    height: 74px;
+    margin-left: 22px;
+}
+
+.main .two img {
+    width: 91px;
+    height: 95px;
+}
+
+.main .three img {
+    width: 81px;
+    height: 83px;
+}
+
+.main .subtitle {
+    font-family: 'SegoeUI-Light', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    margin-top: auto;
+    line-height: 39px;
+}
+
+.main-content {
+    width: 100%;
+    height: 506px;
+    background-image: url(img/Layer10copy\ 3.png);
+}
+
+.main-content .text-about {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 37px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    padding-top: 31px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.main-content .info-field {
+    background-image: url(img/Layer22.png);
+    height: 233px;
+    width: 341px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.plus-txt {
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 211px;
+    margin-bottom: 0px;
+    bottom: 0px;
+    right: 14px;
+    left: 318px;
+}
+
+.plus-txt:hover {
+    background: #9B7D08;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 211px;
+    margin-bottom: 0px;
+    bottom: 0px;
+    right: 14px;
+    left: 318px;
+}
+
+.txt-info-field {
+    color: #FFFFFF;
+    font-family: 'SegoeWP-Light', sans-serif;
+    font-size: 29px;
+    text-align: left;
+    line-height: 38px;
+    width: 272px;
+    height: 174px;
+    padding: 0px 38px 44px 31px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.calendar {
+    background-image: url(img/Layer22copy.png);
+    width: 112px;
+    height: 86px;
+}
+
+.calendar h1 {
+    font-family: "Segoe-UI-Bold";
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 45px;
+    margin: 0;
+}
+
+.calendar h4 {
+    text-align: center;
+    font-family: 'SegoeUI-Light', sans-serif;
+    font-size: 21px;
+    margin: 0;
+    color: #B26529;
+}
+
+.main-score {
+    width: 100%;
+    height: 499px;
+    background-image: url(img/Layer32.png);
+    margin-top: -100px;
+}
+
+.play-field {
+    display: flex;
+    flex-direction: row;
+}
+
+.player-2 {
+    width: 315px;
+    height: 233px;
+    float: left;
+}
+
+.player-2 video[poster] {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.twitter {
+    position: relative;
+    background-image: url(img/Layer22-2.png);
+    margin-left: 35px;
+    width: 329px;
+    height: 233px;
+}
+
+.twitter .bird {
+    padding-top: 56px;
+    padding-left: 80px;
+}
+
+.num-in-twiter {
+    margin-top: 12px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 17px;
+    font-size: 25px;
+    line-height: 38px;
+    color: #fff;
+    font-family: "SegoeWP", sans-serif;
+    font-weight: 300;
+}
+
+.plus {
+    width: 11px;
+    height: 11px;
+    position: relative;
+    padding-left: 0px;
+    padding-top: 0px;
+    top: 30px;
+    margin-left: 60px;
+}
+
+.plus:hover {
+    background: #9B7D08;
+    width: 11px;
+    height: 11px;
+    position: relative;
+    padding-left: 0px;
+    top: 30px;
+    margin-left: 60px;
+}
+
+.rang {
+    margin-left: 70px;
+    margin-bottom: 0px;
+    margin-top: 128px;
+    -webkit-appearance: none;
+    width: 895px;
+    height: 15px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    opacity: 0.5;
+}
+
+input {
+    outline: none;
+}
+
+.twitter-media .twitter-message {
+    display: none;
+}
+
+.twitter-media .message {
+    display: none;
+}
+
+.rang::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 197px;
+    height: 17px;
+    border-radius: 7px;
+    background: url(img/RoundedRectangle3.png);
+    cursor: pointer;
+    border: none;
+}
+
+.rang::-moz-range-track {
+    margin-top: 125px;
+    width: 895px;
+    height: 15px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    opacity: 0.5;
+}
+
+.rang::-moz-range-thumb {
+    width: 197px;
+    height: 17px;
+    border-radius: 7px;
+    background: url(img/RoundedRectangle3.png);
+    cursor: pointer;
+    border: none;
+}
+
+.main-score {
+    margin-top: 0;
+}
+
+.main-score h6 {
+    font-family: 'PT Sans', sans-serif;
+    color: #F5C506;
+    font-size: 43px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 38px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.target-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.target {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.target-flex .computer {
+    padding-right: 25px;
+}
+
+.free {
+    position: absolute;
+    top: -52px;
+    bottom: 0px;
+    right: 0px;
+    left: -17px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.free-txt {
+    position: absolute;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+    right: 447.567px;
+    top: -24.5px;
+    margin-left: -1px;
+}
+
+.target-flex .tablet {
+    padding-right: 25px;
+    width: 129px;
+    height: 173px;
+}
+
+.target-flex .telephone {
+    margin-bottom: -111px;
+    width: 39px;
+    height: 63px;
+}
+
+.text-about-target ul {
+    color: #A9A9A7;
+    font-family: 'SegoeWP-Light,', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    line-height: 39px;
+    padding-top: 13px;
+    padding-left: 37px;
+}
+
+.text-about-target li:first-child {
+    font-family: "PTSans-Regular", sans-serif;
+}
+
+.text-about-target li:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-about-target li:nth-child(3) {
+    font-family: "PTSans-Regular", sans-serif;
+}
+
+.text-about-target li:nth-child(4) {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.target-flex .text-about-target ul li {
+    list-style-type: none;
+    /* Прячем исходные маркеры */
+    padding-left: 45px;
+    list-style-image: url(img/Ellipse4.png);
+    list-style-position: inside;
+}
+
+
+/*
+li:before {
+    width: 14px;
+    height: 14px;
+    content: "•";
+    padding-right: 10px;
+}*/
+
+.footer {
+    width: 100%;
+    height: 64px;
+    background-image: url(img/Layer31.png);
+}
+
+.footer .logo {
+    padding-top: 8px;
+    width: 225px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 146px;
+}
+
+.footer .logo .layer-1 {
+    position: relative;
+    padding-right: 5px;
+}
+
+.footer .logo .lay-1 {
+    z-index: 1;
+    opacity: 50%;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+}
+
+.footer .lay-2 {
+    z-index: 10;
+    width: 51px;
+    height: 51px;
+    border-radius: 13px;
+}
+
+.footer .the-yalow {
+    color: #FFFFFF;
+    font-family: 'LucidaSans-Italic', sans-serif;
+    letter-spacing: 0px;
+    font-size: 29px;
+    text-align: center;
+    padding-top: 9px;
+}
+
+@media only screen and (max-width: 768px) {
+    .body {
+        background: #fff;
+        height: 1553px;
+        width: 640px;
+    }
+    .wrapper {
+        width: 640px;
+        max-width: 640px;
+    }
+    .header {
+        height: 63px;
+        background-image: none;
+    }
+    .lognav {}
+    .header .logo {
+        width: 186px;
+        height: 62px;
+        background-image: url(img/lay26.png);
+        padding: 0;
+        float: right;
+    }
+    .header .layer-1 {
+        width: 39px;
+        height: 38px;
+        padding-bottom: 0px;
+        bottom: -10px;
+        left: 14px;
+    }
+    .header .logo .lay-1 {
+        z-index: 1;
+        opacity: 50%;
+        width: 43px;
+        height: 43px;
+        position: absolute;
+    }
+    .header .logo .lay-2 {
+        z-index: 10;
+        width: 38px;
+        height: 39px;
+        border-radius: none;
+    }
+    .nav-bar {
+        background-image: url(img/Rectangle\ 2\ copy.png);
+        width: 455px;
+        height: 62px;
+        box-shadow: none;
+        float: left;
+    }
+    .header .logo .the-yalow {
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-left: 15px;
+        font-size: 19px;
+        text-align: center;
+        padding-top: 22px;
+    }
+    .menu {
+        margin-top: 20px;
+        list-style-type: none;
+    }
+    .in-main {
+        display: block;
+        height: 327px;
+    }
+    .section {
+        width: 640px;
+        height: 327px;
+        padding-top: 0;
+    }
+    .the-cool {
+        display: none;
+    }
+    .slader {
+        display: none;
+    }
+    .slader-2 {
+        display: none;
+    }
+    .main {
+        width: 640px;
+        margin: 0 auto;
+        height: 174px;
+        background-image: url(img/Layer7.png);
+        margin-bottom: 945px;
+        clear: both;
+    }
+    .main .rov {
+        padding-top: 28px;
+    }
+    .main .one img {
+        padding-bottom: 15px;
+        width: 90px;
+        height: 62px;
+        margin-left: 10px;
+    }
+    .main .two img {
+        padding-bottom: 5px;
+        width: 68px;
+        height: 70px;
+        margin-left: 10px;
+    }
+    .main .three img {
+        padding-bottom: 5px;
+        margin-left: -10px;
+        padding-right: 20px;
+        width: 69px;
+        height: 70px;
+    }
+    .main .subtitle {
+        font-size: 23px;
+    }
+    .play-field {
+        flex-wrap: wrap;
+    }
+    .main-content {
+        background: #FFFFFF;
+        width: 299px;
+        height: 270px;
+    }
+    .main-content .text-about {
+        display: none;
+    }
+    .calendar {
+        display: none;
+    }
+    .main-content .info-field {
+        display: block;
+        float: left;
+        height: 232px;
+        width: 299px;
+        margin: 1% 0 1% 1%;
+    }
+    .player-2 {
+        width: 315px;
+        height: 232px;
+        float: left;
+        margin: 1%;
+    }
+    .player-2 video[poster] {
+        height: 233px;
+        width: 315px;
+        object-fit: cover;
+    }
+    .twitter-media {
+        background-image: url(img/Layer\ 22copy3.png);
+        margin-left: 0;
+        width: 640px;
+        height: 233px;
+    }
+    .twitter-media .twitter-message {
+        width: 323px;
+        height: 233px;
+    }
+    .twitter-media .message {
+        display: block;
+        width: 285px;
+        height: 43px;
+    }
+    .num-in-twiter {
+        display: none;
+    }
+    .plus {
+        display: none;
+    }
+    .plus-txt {
+        left: 275px;
+    }
+    .plus-txt:hover {
+        left: 275px;
+        background: #9B7D08;
+    }
+    .rang {
+        display: none;
+    }
+    .main-score {
+        margin-top: 33%;
+        height: 467px;
+    }
+    .main-score h6 {
+        font-weight: 39px;
+        padding-top: 28px;
+        padding-right: 15px;
+    }
+    .main-score .text-about-target {
+        display: none;
+    }
+    .target-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 55px;
+        margin-top: 70px;
+    }
+    .footer {
+        margin: 0 auto;
+        width: 640px;
+        height: 44px;
+    }
+    .footer .logo {
+        padding-left: 60px;
+    }
+    .footer .logo .lay-1 {
+        width: 32px;
+        height: 32px;
+    }
+    .footer .logo .lay-2 {
+        width: 30px;
+        height: 30px;
+    }
+    .footer .the-yalow {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 7px;
+    }
+}
